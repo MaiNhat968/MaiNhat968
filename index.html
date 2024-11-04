@@ -21,9 +21,16 @@
         header {
             padding: 2rem 0;
         }
-        header h1 {
+        header h1.vietnamese-text {
             font-weight: 300;
-            font-size: 2.5rem;
+            font-size: 3rem; /* Balanced size for Vietnamese header */
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        header h1.english-text {
+            font-weight: 300;
+            font-size: 2rem; /* Adjusted size for English header */
+            color: #ccc;
         }
         .container {
             width: 80%;
@@ -40,6 +47,14 @@
             font-weight: 300;
             font-size: 1rem;
             line-height: 1.6;
+        }
+        .vietnamese-text {
+            font-size: 1rem;
+        }
+        .english-text {
+            font-size: 0.9rem; /* Smaller font for English */
+            font-family: 'Arial', sans-serif; /* Different font for English text */
+            color: #ccc; /* Slightly lighter color for English text */
         }
         .contact-info {
             margin: 3rem 0;
@@ -69,6 +84,11 @@
             font-size: 0.9rem;
             line-height: 1.4;
         }
+        .service-list {
+            margin: 2rem 0;
+            color: #ddd;
+            text-align: left;
+        }
         footer {
             background: #111;
             color: #bbb;
@@ -80,17 +100,29 @@
 </head>
 <body>
     <header>
-        <h1>Dịch vụ phiên dịch Tiếng Anh Đắk Lắk - Ms. Nhật</h1>
-        <h1>English Interpretation Services - Đắk Lắk</h1>
+        <h1 class="vietnamese-text">Dịch vụ phiên dịch Tiếng Anh Đắk Lắk - Ms. Nhật</h1>
+        <h1 class="english-text">English Interpretation Services - Đắk Lắk</h1>
     </header>
     
     <div class="container">
-        <p>Chào mừng bạn đến với dịch vụ phiên dịch Tiếng Anh chuyên nghiệp tại Đắk Lắk. Tôi chuyên cung cấp hỗ trợ ngôn ngữ
-           tiếng Anh cho các nhu cầu cá nhân và công việc của quý khách.</p>
-        <p>Welcome to professional English interpretation services in Đắk Lắk. I specialize in providing English language support for your personal and business needs.</p>
+        <p class="vietnamese-text">Chào mừng bạn đến với dịch vụ phiên dịch Tiếng Anh chuyên nghiệp tại Đắk Lắk. Tôi chuyên cung cấp hỗ trợ ngôn ngữ tiếng Anh cho các nhu cầu cá nhân và công việc của quý khách.</p>
+        <p class="english-text">Welcome to professional English interpretation services in Đắk Lắk. I specialize in providing English language support for your personal and business needs.</p>
         
-        <!-- Displaying the user's profile image -->
         <img src="hình Nhat.jpg" alt="Ms. Nhật - Interpreter" class="profile-image">
+        
+        <div class="service-list">
+            <h2>Lĩnh vực chuyên môn / Areas of Expertise</h2>
+            <ul>
+                <li class="vietnamese-text">Nông nghiệp</li>
+                <li class="english-text">Agriculture</li>
+                <li class="vietnamese-text">Thương mại xuất nhập khẩu trái cây nông sản</li>
+                <li class="english-text">Fruit and agricultural product import-export trade</li>
+                <li class="vietnamese-text">Dự án NGO</li>
+                <li class="english-text">NGO projects</li>
+                <li class="vietnamese-text">Phiên dịch hội nghị</li>
+                <li class="english-text">Conference interpretation</li>
+            </ul>
+        </div>
         
         <div class="contact-info">
             <p>Email: <strong>nhat.le06@gmail.com</strong></p>
@@ -103,24 +135,24 @@
         <h2>Phản hồi từ khách hàng / Customer Feedback</h2>
         
         <div class="feedback">
-            <p>"Ms. Nhật đã hỗ trợ rất chuyên nghiệp trong các sự kiện của chúng tôi. Với khả năng ngôn ngữ tốt và sự am hiểu về văn hóa, cô ấy giúp buổi họp diễn ra suôn sẻ và đạt hiệu quả cao." – Mr. Phấn, Trung tâm Xúc tiến tỉnh Đắk Lắk</p>
-            <p>"Ms. Nhat provided professional support for our events. With her excellent language skills and cultural understanding, she ensured smooth and effective meetings." – Mr. Phan, Dak Lak Trade Promotion Center</p>
+            <p class="vietnamese-text">"Ms. Nhật đã hỗ trợ rất chuyên nghiệp trong các sự kiện của chúng tôi. Với khả năng ngôn ngữ tốt và sự am hiểu về văn hóa, cô ấy giúp buổi họp diễn ra suôn sẻ và đạt hiệu quả cao." – Mr. Phấn, Trung tâm Xúc tiến tỉnh Đắk Lắk</p>
+            <p class="english-text">"Ms. Nhat provided professional support for our events. With her excellent language skills and cultural understanding, she ensured smooth and effective meetings." – Mr. Phan, Dak Lak Trade Promotion Center</p>
         </div>
         
         <div class="feedback">
-            <p>"Dịch vụ phiên dịch của Ms. Nhật là điểm cộng lớn cho đoàn công tác JVEC tại Đắk Lắk. Cô ấy giúp chúng tôi dễ dàng tiếp cận với đối tác địa phương và hiểu rõ hơn về môi trường kinh doanh ở đây." – JVEC, Hàn Quốc</p>
-            <p>"Ms. Nhat's interpretation services were a great asset to the JVEC delegation in Dak Lak. She facilitated easy communication with local partners and helped us understand the local business environment." – JVEC, Korea</p>
+            <p class="vietnamese-text">"Dịch vụ phiên dịch của Ms. Nhật là điểm cộng lớn cho đoàn công tác JVEC tại Đắk Lắk. Cô ấy giúp chúng tôi dễ dàng tiếp cận với đối tác địa phương và hiểu rõ hơn về môi trường kinh doanh ở đây." – JVEC, Hàn Quốc</p>
+            <p class="english-text">"Ms. Nhat's interpretation services were a great asset to the JVEC delegation in Dak Lak. She facilitated easy communication with local partners and helped us understand the local business environment." – JVEC, Korea</p>
         </div>
         
         <div class="feedback">
-            <p>"Không chỉ giỏi phiên dịch, Ms. Nhật còn rất linh hoạt và nhiệt tình. Chúng tôi luôn chọn cô ấy cho các sự kiện lớn nhỏ của công ty." – Công ty TNHH Xuất Nhập Khẩu Nông Sản ABC</p>
-            <p>"Not only is Ms. Nhat excellent at interpreting, but she is also flexible and enthusiastic. We always choose her for our company's events, big or small." – ABC Agricultural Export-Import Co., Ltd.</p>
+            <p class="vietnamese-text">"Không chỉ giỏi phiên dịch, Ms. Nhật còn rất linh hoạt và nhiệt tình. Chúng tôi luôn chọn cô ấy cho các sự kiện lớn nhỏ của công ty." – Công ty TNHH Xuất Nhập Khẩu Nông Sản ABC</p>
+            <p class="english-text">"Not only is Ms. Nhat excellent at interpreting, but she is also flexible and enthusiastic. We always choose her for our company's events, big or small." – ABC Agricultural Export-Import Co., Ltd.</p>
         </div>
     </div>
     
     <footer>
         <p>&copy; 2024 Dịch vụ phiên dịch Tiếng Anh Đắk Lắk - Ms. Nhật. All rights reserved.</p>
-        <p>&copy; 2024 English Interpretation Services - Đắk Lắk. All rights reserved.</p>
+        <p class="english-text">&copy; 2024 English Interpretation Services - Đắk Lắk. All rights reserved.</p>
     </footer>
 </body>
 </html>
